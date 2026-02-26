@@ -1,4 +1,5 @@
 /* 
+{
 Zakladni Synta CSS
 
 selector {
@@ -13,10 +14,42 @@ vlastnost-n: hodnota;
 
 */
 body {
-    background-color: #4141d3;
+    background-color: #2424d6;
     font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    font-size: 36px;
+    margin: unset;
+}
+h1, h2 {
+    color:rgb(31, 8, 13);
 }
 
 p {
-font-famaly: 'Times New Roman' , Times, serif;
+font-family: 'Times New Roman' , Times, serif;
+font-size: 18px;
+}
+
+header, footer {
+    background-color: #43d4db;
+ /*   padding: 0.5rem;  1rem vetsinou 16px */ 
+    padding: 0.5rem 1rem;
+ /*   padding: 0.5rem 1rem 1.5rem 2rem;   */
+
+}
+footer p {
+    margin: unset;
+}
+
+.page-wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.card {
+    background-color:#43d4db;
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 28px 40px;
+    border: 2px solid orange;
 }
